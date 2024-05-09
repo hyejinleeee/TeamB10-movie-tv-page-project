@@ -25,7 +25,7 @@ localStorage를 사용해 리뷰를 등록,삭제 수정할 수 있는 사이트
 
 
 ### 5. 주요기능 
-전체적인 구상
+<전체적인 구상>
 
 <img width="635" alt="스크린샷 2024-05-09 오후 6 18 43" src="https://github.com/hyejinleeee/TeamB10-movie-tv-page-project/assets/159586671/5333bd30-f64f-45bb-a706-deba5050be9c">
 
@@ -33,6 +33,7 @@ localStorage를 사용해 리뷰를 등록,삭제 수정할 수 있는 사이트
 
 <br>
 <br>
+<메인페이지>
 <img width="1280" alt="스크린샷 2024-05-09 오후 6 58 47" src="https://github.com/hyejinleeee/TeamB10-movie-tv-page-project/assets/159586671/4f51dd9c-d7c4-4a14-8467-7b1c579d5819">
 <br>
 TMDB API 통해 현재 trending 중인 영화 및 티비 시리즈 데이터베이스에 접근해 각 포스터 이미지들을 가져왔고, 
@@ -41,6 +42,7 @@ TMDB API 통해 현재 trending 중인 영화 및 티비 시리즈 데이터베�
 사용자는 여기서 TV시리즈나 영화의 포스터 트랙을 클릭하거나, 상단 헤더 내 movie 와 tv 카테고리를 클릭하는 것을 통해서 tv시리즈 페이지나 영화 페이지를 선택해서 이동할 수 있습니다. 
 <br>
 <br>
+<영화페이지, tv페이지>
 <img width="1304" alt="스크린샷 2024-05-09 오후 6 59 01" src="https://github.com/hyejinleeee/TeamB10-movie-tv-page-project/assets/159586671/7c0a73be-e824-4bf9-83bd-9a40b1bb2cce">
 <br>
 기본적으로 티비 시리즈 페이지와 영화 페이지는 동일한 구조를 갖고 있으며, 어떤 TMDB api를 활용해 어떤 정보를 가져오느냐의 차이만 존재합니다. <br>
@@ -48,6 +50,7 @@ TMDB API 통해 현재 trending 중인 영화 및 티비 시리즈 데이터베�
 TMDB 데이터베이스 상에서 갖는 id값을 가져왔고, CSS에서 grid 형 display를 활용해 각 영화, 티비 포스터가 카드 형식으로 한 페이지에 20개씩 정렬되도록 구현했습니다.
 <br>
 <br>
+<상세페이지>
 <img width="1280" alt="스크린샷 2024-05-09 오후 7 00 19" src="https://github.com/hyejinleeee/TeamB10-movie-tv-page-project/assets/159586671/8ac0236d-cde7-4da7-8553-be9d0a886bbe">
 <br>
 상세 페이지의 자바스크립트는 이전 페이지에 클릭된 카드가 갖는 id값과 더불어, 해당 클릭이 영화 페이지에서 일어났는지 tv 페이지에서 일어났는지에 대한 정보를
